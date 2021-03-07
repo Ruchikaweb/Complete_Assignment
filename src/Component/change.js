@@ -5,7 +5,6 @@ class Change extends React.Component{
     mode=()=>{
         document.body.classList.toggle('dark'); 
         document.getElementById("footmood").classList.toggle('darkfootr'); 
-        // document.getElementById("form").classList.toggle('postbackground'); 
     }
     render(){
         return(

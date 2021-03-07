@@ -8,7 +8,7 @@ class Header extends React.Component{
          this.state = {
              donars:'' 
          }
-    } 
+    }       
     Activedonar=(data) => {
         if(data){
             const add = data.length
