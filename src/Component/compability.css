@@ -1,0 +1,38 @@
+.tableheading{
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+#firsttable{
+    width: 45%;
+    margin: auto;
+    font-size: 15px;
+    /* border: 2px solid black; */
+}
+.table td{
+    /* border: 2px solid black; */
+    text-align: center;
+} 
+.table th {
+    /* border: 2px solid black; */
+    text-align: center;
+}
+.edittable{
+    background-color: rgb(247, 230, 230);
+}
+.tableheading2{
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+#secondtable{
+    width: 25%;
+    margin: auto;
+    margin-bottom: 2%;
+    font-size: 15px;
+    /* border: 2px solid black; */
+}
+#groupimage{
+    margin-left: 15% ;
+    margin-bottom: 10px;
+}

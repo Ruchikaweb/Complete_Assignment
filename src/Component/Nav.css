@@ -1,0 +1,26 @@
+body{
+        background-color: white;
+        color:black
+    } 
+.dark{
+    background-color: black;
+    color:gray 
+}
+ 
+.darkfootr{
+    background-color: white;
+    color: black;
+}
+
+ #idforchngmood{
+   margin-top: 10px;
+   margin-left: 10px;
+   border: none;
+ }
+
+ .glyphicon-adjust{
+     font-size: 20px;
+     border: none;
+     background-color: white;
+     color: rgb(17, 17, 17);
+ }

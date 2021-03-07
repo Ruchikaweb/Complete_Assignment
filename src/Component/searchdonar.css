@@ -1,0 +1,28 @@
+.jumbotron{
+    text-align: center;
+}
+
+#tabledessign{
+    border: 2px solid black;
+}
+
+.optionstyle{
+    padding: 10px  30px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+#contacttext{
+    text-align: center;
+    color: red;
+    background-color:  rgb(245, 206, 206);
+    padding: 2px;
+}
+
+
+@media screen and (max-width:620px){
+    .optionstyle{
+        font-size: 15px;
+    }
+}

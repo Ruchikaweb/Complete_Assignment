@@ -1,0 +1,20 @@
+#form{
+    background-color: rgb(252, 243, 243);
+    margin-top: 2%;
+}
+
+.btn-lg{
+    margin: auto;
+}
+
+#submitt{
+    margin-bottom: 10px;
+    border: 5px double rgb(187, 145, 221);
+    border-radius: 25px;
+    margin-left: 50%;
+}
+
+#submitt:hover{
+    font-size: 25px;
+    border-radius: 15px;
+}

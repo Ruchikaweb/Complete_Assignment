@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 15px; */
+}
+
+#headd{
+    background:url('https://i.postimg.cc/fRVJnrQy/gro.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gray;
+    margin-top: -20px;
+} 
+
+#edit{
+     margin-top: 50px;
+     margin-right: 10%;
+     margin-left: 10%;  
+     box-shadow: 0px 6px 6px gray;
+     color: white;
+     float: left;
+     font-size: 25px;
+   
+}
+
+/* #image1{
+    width: 180px;
+    height: 180px;
+    margin-top:  20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}  */
+#image2{
+    margin-top:  20px;
+    margin-left: 30%;
+    width: 180px;
+    height: 180px;
+    float: left;
+    
+}
+
+/* #edit1{
+    margin-top: 50px;
+    margin-right: 10%;
+    margin-left: 25%;
+    padding: 5px; 
+    color: white;
+    box-shadow: 0px 6px 6px rgb(226, 145, 145);
+    font-size: 25px;
+    float:right 
+} */
+
+.active{
+    color: black;
+    border: 3px solid black;
+    background-color:  rgb(240, 228, 228);
+    box-shadow: 0px 6px 6px gray;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 30%;
+    margin-top:  3%;
+}
+
+#donars{
+   margin-top: 15%;
+   position: absolute;
+}
+
+@media screen and (max-width:1200px){
+    .active{
+        margin-top: 0;
+    }
+    #image1{
+      margin-left: 30%;
+    }
+    #edit1{
+        translate:(0, -50%)
+    }
+    #donars{
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width:1000px){
+    #edit{
+        font-size: 15px;
+    }
+    #donars{
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width:700px){
+    #image2{
+        margin-left: 20%;
+    }
+    #donars{
+        margin-top: 20%;
+    }
+    .active{
+        width: 100px;
+        height: 100px;
+        font-size: 10px;
+        margin-left: 20%;
+        margin-top: 15%;
+    }
+}
